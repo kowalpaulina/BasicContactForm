@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Contact Form</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Form">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+      <form class="form" action="mail.php" method="POST">
+        <fieldset>
+             <h1>Skontaktuj się ze mną</h1>
+             <div class="error valid-information"></div>
+             
+                  <label for="fname">Imię, nazwisko</label>
+                  <input type="text" name="fname" id="fname" placeholder="Joanna" autofocus autocomplete="name" >
+                  <div class="error error-fname"></div>
+              
+                  <label for="email">Adres email:</label>
+                  <input type="email" name="email" id="email" placeholder="ktos@adres.com" autocomplete="email">
+                  <div class="error error-email"></div>
+                 
+                 <label>Wiadomość:</label>
+                  <textarea name="message" id="message" cols="30" rows="10" placeholder="Twoja wiadomość"></textarea>
+                   <div class="error error-message"></div>
+          <button type="submit" name="send" id="send">Wyślij</button>
+          </fieldset>
+      </form>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

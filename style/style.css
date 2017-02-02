@@ -1,0 +1,121 @@
+/*
+RESET:  
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+body.loading {
+  height: 100vh;
+  overflow-y: hidden; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section {
+  display: block; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #0B323F;
+  color: #EEEBD0;
+  font-size: 18px;
+  font-weight: 300; }
+
+h1 {
+  font-size: 140%;
+  text-align: center;
+  background-color: #F45B69;
+  padding: 10px 0; }
+
+.form {
+  width: 40%;
+  margin: 3% auto; }
+
+label {
+  display: block;
+  margin-top: 30px;
+  font-size: 90%; }
+
+input, textarea {
+  display: block;
+  box-sizing: border-box;
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  font-family: "Roboto", sans-serif; }
+
+.error {
+  color: #F45B69;
+  font-size: 90%;
+  margin-top: 10px;
+  line-height: 1.5em;
+  /*display: none;*/ }
+
+button {
+  padding: 12px;
+  display: block;
+  width: 100%;
+  background-color: #F45B69;
+  color: #EEEBD0;
+  outline: none;
+  border: none;
+  float: right;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 140%;
+  cursor: pointer; }
+
+@media screen and (max-width: 1000px) {
+  .form {
+    width: 70%; } }
+@media screen and (max-width: 700px) {
+  .form {
+    width: 90%; }
+
+  body {
+    font-size: 16px; } }
+
+/*# sourceMappingURL=style.css.map */

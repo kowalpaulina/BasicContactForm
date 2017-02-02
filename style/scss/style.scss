@@ -1,0 +1,82 @@
+@import 'reset';
+$font-family: "Roboto", sans-serif;
+$h1: 140%;
+$mainColor: #0B323F;
+$secondColor: #F45B69;
+$brightColor:#EEEBD0;
+
+body{
+    font-family: $font-family;
+    background-color: $mainColor;
+    color: $brightColor;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h1{
+    font-size: $h1;
+    text-align: center;
+    background-color: $secondColor;
+    padding: 10px 0;
+}
+
+.form{
+    width: 40%;
+    margin: 3% auto;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 90%;
+}
+
+
+input, textarea{
+        display: block;
+        box-sizing: border-box;
+        margin-top: 10px;
+        width: 100%;
+        padding:8px;
+        border: none;
+        font-family: $font-family;}
+
+
+.error {
+    color: $secondColor;
+    font-size: 90%;
+    margin-top: 10px;
+    line-height: 1.5em;
+    /*display: none;*/
+}
+
+button{
+    padding: 12px;
+    display: block;
+    width: 100%;
+    background-color: $secondColor;
+    color: $brightColor;
+    outline: none;
+    border: none;
+    float: right;
+    margin-top: 20px;
+    font-family: $font-family;
+    font-weight: 300;
+    font-size: 140%;    
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px){
+    .form{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .form{
+        width: 90%;
+    }
+    body{
+        font-size: 16px;
+    }
+}
