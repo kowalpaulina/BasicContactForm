@@ -72,6 +72,9 @@ h1 {
   width: 40%;
   margin: 3% auto; }
 
+.form.inActive {
+  display: none; }
+
 label {
   display: block;
   margin-top: 30px;
@@ -107,6 +110,10 @@ button {
   font-weight: 300;
   font-size: 140%;
   cursor: pointer; }
+
+.error.valid-information {
+  text-align: center;
+  margin-top: 3%; }
 
 @media screen and (max-width: 1000px) {
   .form {

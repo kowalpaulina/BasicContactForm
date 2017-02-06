@@ -56,8 +56,9 @@ function sendEmail(e) {
             msg = "Dziękuję " + data.dataPerson.fname + ', ' + data.success;
             showMessage(type, msg);
         
-            form.removeEventListener("submit", sendEmail, false);
-            form.querySelector("button").setAttribute("disabled", "disabled");
+            /*form.removeEventListener("submit", sendEmail, false);
+            form.querySelector("button").setAttribute("disabled", "disabled");*/
+            form.classList.add("inActive");
         
         }
             
